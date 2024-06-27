@@ -13,29 +13,29 @@
 
 <body>
     <div class="bg-[#070a29] h-auto w-full overflow-hidden">
-        <header class="bg-[#080a28] fixed text-white z-50 w-full flex justify-center" data-aos="fade-down" data-aos-duration="1000" id="header_main">
+        <header class="bg-[#080a28] relative text-white w-full flex justify-center" id="header_main">
             <div class="h-[80px] lg:w-[90%] xl:w-[80%] 2xl:w-[65%] w-[95%] flex justify-between items-center">
                 <div class="flex justify-center items-center text-lg">
                     <a href="index.html">
                         <h5>Blockchain Scanner</h5>
                     </a>
                 </div>
-                <nav class="hidden lg:block">
+                <nav class="hidden lg:block relative z-10">
                     <ul class="flex item-center justify-start text-sm">
                         <li class="pr-[40px] md:pr-[20px] xl:pr-[40px] 2xl:pr-[30px]">
-                            <a class="hover:text-[#5832f9] transition-text duration-300 relative z-10" href="#home">Home</a>
+                            <a class="hover:text-[#5832f9] transition-text duration-300" href="#home">Home</a>
                         </li>
                         <li class="pr-[40px] md:pr-[20px] xl:pr-[40px] 2xl:pr-[30px]">
-                            <a class="hover:text-[#5832f9] transition-text duration-300 relative z-10" href="#how">How it works</a>
+                            <a class="hover:text-[#5832f9] transition-text duration-300" href="#how">How it works</a>
                         </li>
                         <li class="pr-[40px] md:pr-[20px] xl:pr-[40px] 2xl:pr-[30px]">
-                            <a class="hover:text-[#5832f9] transition-text duration-300 relative z-10" href="#install">How to install</a>
+                            <a class="hover:text-[#5832f9] transition-text duration-300" href="#install">How to install</a>
                         </li>
                         <li class="pr-[40px] md:pr-[20px] xl:pr-[40px] 2xl:pr-[30px]">
-                            <a class="hover:text-[#5832f9] transition-text duration-300 relative z-10" href="#buy">Buy now</a>
+                            <a class="hover:text-[#5832f9] transition-text duration-300" href="#buy">Buy now</a>
                         </li>
                         <li class="pr-[40px] md:pr-[20px] xl:pr-[40px] 2xl:pr-[30px]">
-                            <a class="hover:text-[#5832f9] transition-text duration-300 relative z-10" href="#faq">Faq</a>
+                            <a class="hover:text-[#5832f9] transition-text duration-300" href="#faq">Faq</a>
                         </li>
                         <li class="">
                             <a class="hover:text-[#5832f9] transition-text duration-300 relative z-10" href="#contact">Contact us</a>
@@ -55,10 +55,9 @@
                 </ul>
             </nav>
         </header>
-        <div style="height: 50px;"></div>
         <section class="point-background relative pt-[73px] text-white flex flex-col items-center" id="home">
-            <div class="absolute h-[2000px] w-[2000px] left-[-35%] top-[-30%] bg-custom-radial opacity-50 content-[''] z-0"></div>
-            <div class="absolute h-[2000px] w-[2000px] left-auto top-[-80%] right-[-70%] bg-custom-radial opacity-50 content-[''] z-0"></div>
+            <div class="absolute h-[2000px] w-[2000px] left-[-35%] top-[-30%] bg-custom-radial opacity-50 content-['']"></div>
+            <div class="absolute h-[2000px] w-[2000px] left-auto top-[-80%] right-[-55%] bg-custom-radial opacity-50 content-['']"></div>
             <div class="flex flex-col items-center gap-5">
                 <div class="max-w-fit inline-block rounded-2xl bg-gradient-to-r from-[rgba(255,255,255,0.05)] via-[rgba(255,255,255,0.008)] to-[rgba(255,255,255,0.05)]">
                     <p class="xs:text-sm text-[12px] font-bold py-1 px-4 rounded-2xl bg-clip-text text-transparent bg-gradient-to-r from-[#6532fe] to-[#b898ff] border border-gray-700 bg-white bg-opacity-5">
@@ -445,6 +444,8 @@
         //TOGGLE NAVBAR
         const mobileTab = document.querySelector('.mobile-button');
         const mobileNav = document.getElementById('main-nav-mobi');
+        const mainHeader = document.getElementById('header_main');
+        const lining =document.querySelector('.lining');
 
         mobileTab.addEventListener('click', function() {
 
@@ -476,13 +477,26 @@
 
         //SCROLL HEADER
         window.addEventListener('scroll', function() {
-
-            const mobileNav = document.getElementById('main-nav-mobi');
+            console.log(123123);
 
             if (mobileTab.classList.contains('active')) {
                 mobileTab.classList.remove('active');
                 mobileNav.style.maxHeight = '0px';
             }
+
+            if (window.scrollY > 150) {
+                mainHeader.classList.add('add-top');
+            } else if (window.scrollY < 150) {
+                mainHeader.classList.remove('add-top');
+            }
+
+            if (window.scrollY > 250) {
+                mainHeader.classList.add('trans-top');
+            } else if (window.scrollY < 250) {
+                mainHeader.classList.remove('trans-top');
+            }
+
+
         });
 
         // toggle content

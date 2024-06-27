@@ -578,29 +578,15 @@ hr {
     color: #181818;
     padding: 12px 0px 12px 20px;
 }
-
-#header_main.is-fixed {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    background: #070a29;
+#header_main.add-top {
     top: -100%;
-    transition: all 0.4s ease-in-out;
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
-    z-index: 9999;
-    opacity: 0;
-    left: 0;
-    width: 100%;
+    transition: all 0.5s ease;
 }
-
-.header.is-fixed.is-fixed.is-small {
+#header_main.trans-top {
+    top: 0;
     position: fixed;
-    top: -1px;
-    opacity: 1;
-    visibility: visible;
-    height: 80px;
+    z-index: 9999;
 }
-
 @media (max-width: 640px) {
     .roadmap-box {
         width: 100%;
