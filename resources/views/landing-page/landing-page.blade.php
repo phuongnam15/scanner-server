@@ -70,7 +70,7 @@
                     <h1 class="text-[40px] md:text-[60px] text-center">FROM LOST WALLETS</h1>
                 </div>
                 <span class="font-readex w-2/3 text-center">In my own opinion, the best way to make money with cryptocurrency is to get it from abandoned/forgotten wallets.</span>
-                <a class="p-1.5 border-1 border-solid border-gray-700 rounded-xl cursor-pointer team-box2">
+                <a href="https://t.me/+3xWeJfzujaMzNmM9" class="p-1.5 border-1 border-solid border-gray-700 rounded-xl cursor-pointer team-box2">
                     <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-3 px-8 md:py-5 md:px-12 image2">JOIN OUR TELEGRAM CHANEL</p>
                 </a>
             </div>
@@ -426,7 +426,7 @@
                     <p class="postion text-white">Developer</p>
                     <ul class="list-social">
                         <li>
-                            <a href="https://t.me/blockchaintool_bot" target="_blank">
+                            <a href="https://t.me/+3xWeJfzujaMzNmM9" target="_blank">
                                 <svg fill="none" height="14" viewBox="0 0 17 14" width="17" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.77846 9.12109L6.51378 12.844C6.89246 12.844 7.05647 12.6813 7.25315 12.4859L9.02858 10.7892L12.7074 13.4833C13.3821 13.8593 13.8575 13.6613 14.0395 12.8626L16.4543 1.54734L16.455 1.54668C16.669 0.54929 16.0943 0.159269 15.4369 0.403949L1.24283 5.83824C0.274106 6.21426 0.288774 6.75429 1.07815 6.99897L4.70701 8.1277L13.1361 2.85341C13.5328 2.59073 13.8935 2.73607 13.5968 2.99876L6.77846 9.12109Z" fill="white"></path>
                                 </svg>
