@@ -67,28 +67,6 @@ h6,
 span {
     font-family: readex-pro-light;
 }
-.btn-effect {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
-.btn-effect::before {
-    content: "";
-    position: absolute;
-    left: -105%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.1),
-        rgba(255, 255, 255, 0.9)
-    );
-    filter: blur(50px);
-    transition: left 0.5s;
-}
-.btn-effect:hover::before {
-    left: 0%;
-}
 
 .carousel-item {
     position: absolute;
@@ -424,7 +402,14 @@ hr {
     height: 100%;
 }
 
-.team-box .image::after {
+.team-box2 {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.team-box .image::after,
+.team-box2 .image2::after {
     background: linear-gradient(
         90deg,
         rgba(255, 255, 255, 0.13) 0px,
@@ -442,7 +427,8 @@ hr {
     width: 200%;
 }
 
-.team-box:hover .image::after {
+.team-box:hover .image::after,
+.team-box2:hover .image2::after {
     left: -30%;
     opacity: 1;
     top: -20%;
@@ -508,13 +494,16 @@ hr {
     z-index: 10;
 }
 
-.mobile-button::before, .mobile-button::after, .mobile-button span {
+.mobile-button::before,
+.mobile-button::after,
+.mobile-button span {
     background-color: #ffffff;
     transition: all ease 0.3s;
 }
 
-.mobile-button::before, .mobile-button::after {
-    content: '';
+.mobile-button::before,
+.mobile-button::after {
+    content: "";
     position: absolute;
     top: 0;
     height: 3px;
@@ -604,7 +593,7 @@ hr {
         width: 400px;
         height: 550px;
     }
-    .flat-toggle .toggle-title{
+    .flat-toggle .toggle-title {
         font-size: 12px;
     }
     #carousel {

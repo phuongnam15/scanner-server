@@ -70,8 +70,8 @@
                     <h1 class="text-[40px] md:text-[60px] text-center">FROM LOST WALLETS</h1>
                 </div>
                 <span class="font-readex w-2/3 text-center">In my own opinion, the best way to make money with cryptocurrency is to get it from abandoned/forgotten wallets.</span>
-                <a class="btn-effect p-1.5 border-1 border-solid border-gray-700 rounded-xl cursor-pointer">
-                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-3 px-8 md:py-5 md:px-12">JOIN OUR TELEGRAM CHANEL</p>
+                <a class="p-1.5 border-1 border-solid border-gray-700 rounded-xl cursor-pointer team-box2">
+                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-3 px-8 md:py-5 md:px-12 image2">JOIN OUR TELEGRAM CHANEL</p>
                 </a>
             </div>
             <div id="carousel" class="relative text-center mt-[150px] w-full flex justify-center h-[800px]">
@@ -161,8 +161,8 @@
                         </ul>
                         <span class="text-sm">In my own opinion, the best way to make money with cryptocurrency is to get it from abandoned/forgotten wallets.</span>
                         <span class="text-sm mb-3">The software test thousands of potential seed phrase combinations against generated wallets every few seconds so you are able to unlock access to the lost wallet To Get Access To The Hacking/Phrase Recovery Software.</span>
-                        <a class="btn-effect p-1 border-1 border-solid border-gray-700 rounded-xl cursor-pointer max-w-max">
-                            <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-3 px-6 text-sm">View info</p>
+                        <a class="p-1 border-1 border-solid border-gray-700 rounded-xl cursor-pointer max-w-max team-box2">
+                            <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-3 px-6 text-sm image2">View info</p>
                         </a>
                     </div>
                 </div>
@@ -225,8 +225,8 @@
                 <div class="flex text-white flex-col gap-5 items-center mb-10">
                     <h1 class="text-[40px] md:text-[60px] text-center">List Products</h1>
                     <span class="text-sm w-[70%] text-center tracking-wide">We have a variety of products based on different blockchains or multichains, please consider the product that suits your finances.</span>
-                    <a class="btn-effect p-1 border-1 border-solid border-gray-700 rounded-xl cursor-pointer max-w-max">
-                        <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-4 px-8 text-sm">Download</p>
+                    <a class="p-1 border-1 border-solid border-gray-700 rounded-xl cursor-pointer max-w-max team-box2">
+                        <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-4 px-8 text-sm image2">Download</p>
                     </a>
                 </div>
                 <div class="grid grid-cols-12 gap-5 p-5">
@@ -252,8 +252,8 @@
                                 <h6 style="color:#ffeb3b" class="text-sm">20 USDT</h6>
                             </div>
                             <div class="text-center w-full mt-5">
-                                <a class="text-white btn-effect rounded-md cursor-pointer max-w-max">
-                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm">Download</p>
+                                <a class="text-white rounded-md cursor-pointer max-w-max team-box2">
+                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm image2">Download</p>
                                 </a>
                             </div>
                         </div>
@@ -280,8 +280,8 @@
                                 <h6 style="color:#ffeb3b" class="text-sm">20 USDT</h6>
                             </div>
                             <div class="text-center w-full mt-5">
-                                <a class="text-white btn-effect rounded-md cursor-pointer max-w-max">
-                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm">Download</p>
+                                <a class="text-white rounded-md cursor-pointer max-w-max team-box2">
+                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm image2">Download</p>
                                 </a>
                             </div>
                         </div>
@@ -310,8 +310,8 @@
                                 <h6 style="color:#ffeb3b" class="text-sm">20 USDT</h6>
                             </div>
                             <div class="text-center w-full mt-5">
-                                <a class="text-white btn-effect rounded-md cursor-pointer max-w-max">
-                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm">Download</p>
+                                <a class="text-white rounded-md cursor-pointer max-w-max team-box2">
+                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm image2">Download</p>
                                 </a>
                             </div>
                         </div>
@@ -339,8 +339,8 @@
                                 <h6 style="color:#ffeb3b" class="text-sm">50 USDT</h6>
                             </div>
                             <div class="text-center w-full mt-5">
-                                <a class="text-white btn-effect rounded-md cursor-pointer max-w-max">
-                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm">Download</p>
+                                <a class="text-white rounded-md cursor-pointer max-w-max team-box2">
+                                    <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-md py-2 px-4 text-sm image2">Download</p>
                                 </a>
                             </div>
                         </div>
