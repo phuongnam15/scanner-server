@@ -13,10 +13,10 @@
 
 <body>
     <div class="bg-[#070a29] h-auto w-full overflow-hidden">
-        <header class="bg-[#080a28] relative text-white w-full flex justify-center" id="header_main">
+        <header class="bg-[#080a28] relative text-white w-full flex justify-center mb-[100px]" id="header_main">
             <div class="h-[80px] lg:w-[90%] xl:w-[80%] 2xl:w-[65%] w-[95%] flex justify-between items-center">
-                <div class="flex justify-center items-center text-lg">
-                    <a href="index.html">
+                <div class="flex justify-center items-center text-lg relative z-10">
+                    <a href="/" class="cursor-pointer">
                         <h5>Blockchain Scanner</h5>
                     </a>
                 </div>
@@ -46,7 +46,7 @@
             </div>
             <nav class="main-nav" id="main-nav-mobi">
                 <ul class="menu" id="menu-primary-menu">
-                    <li class="menu-item menu-current-item"><a href="/index.html">Home</a></li>
+                    <li class="menu-item menu-current-item"><a href="/">Home</a></li>
                     <li class="menu-item"><a href="#how">How it works</a></li>
                     <li class="menu-item"><a href="#install">How to install</a></li>
                     <li class="menu-item"><a href="#buy">Buy now</a></li>
@@ -55,7 +55,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="point-background relative pt-[73px] text-white flex flex-col items-center" id="home">
+        <section class="point-background relative text-white flex flex-col items-center mb-[100px]" id="home">
             <div class="absolute h-[2000px] w-[2000px] left-[-35%] top-[-30%] bg-custom-radial opacity-50 content-['']"></div>
             <div class="absolute h-[2000px] w-[2000px] left-auto top-[-80%] right-[-55%] bg-custom-radial opacity-50 content-['']"></div>
             <div class="flex flex-col items-center gap-5">
@@ -123,7 +123,7 @@
                 </div>
             </div>
         </section>
-        <section class="relative pb-[80px] text-white flex items-center justify-center" id="how">
+        <section class="relative text-white flex items-center justify-center mb-[100px]" id="how">
             <div class="absolute h-[2000px] w-[2000px] left-[-65%] top-[-90%] bg-custom-radial opacity-50 content-['']"></div>
             <div class="w-full max-w-[1140px] flex flex-col lg:flex-row item-center justify-center">
                 <div class="lg:w-1/2 flex relative justify-center" id="floating">
@@ -349,7 +349,7 @@
             </div>
         </section>
         <section class="relative flex flex-col items-center mb-[100px]" id="faq">
-            <div class="absolute h-[2000px] w-[2000px] left-[-60%] top-[-90%] bg-custom-radial opacity-40 content-['']"></div>
+            <div class="absolute h-[1949px] w-[2000px] left-[-60%] top-[-90%] bg-custom-radial opacity-40 content-['']"></div>
             <div class="max-w-[1230px]">
                 <div class="flex text-white flex-col gap-5 items-center">
                     <div class="max-w-fit relative inline-block rounded-2xl bg-gradient-to-r from-[rgba(255,255,255,0.05)] via-[rgba(255,255,255,0.008)] to-[rgba(255,255,255,0.05)]">
