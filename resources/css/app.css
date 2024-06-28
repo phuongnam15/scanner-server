@@ -370,7 +370,7 @@ hr {
     );
     backdrop-filter: blur(2px);
     border-radius: 6px;
-    padding: 16px;
+    padding: 16px 16px 0px;
     margin-bottom: 12px;
     cursor: pointer;
     width: 100%;
@@ -381,14 +381,14 @@ hr {
     max-height: 0;
     overflow: hidden;
     font-size: 13px;
-    margin-top: 15px;
     font-family: readex-pro-light;
     color: white;
-    transition: max-height 1s ease-in-out;
+    transition: max-height 1s ease;
 }
 
 .toggle-content.open {
     max-height: 500px;
+    transition: max-height 1.5s linear;
 }
 
 .flat-toggle .toggle-title {
@@ -396,6 +396,7 @@ hr {
     position: relative;
     color: white;
     font-size: 13px;
+    padding-bottom: 16px;
 }
 .flat-toggle .toggle-title span {
     font-family: conthrax-sb;
