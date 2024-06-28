@@ -81,7 +81,7 @@
                         <h1 class="text-[20px] text-left">MULTICHAIN SCANNER</h1>
                     </div>
                     <div class="overflow-hidden w-full h-[80%] bg-cover rounded-lg flex justify-center items-center">
-                        <img src="{{asset('./assets/images/multi_scanner.png')}}" alt="" class="scale-220">
+                        <img src="{{asset('./assets/images/rabbit2.png')}}" alt="" class="scale-110">
                     </div>
                     <p>View info</p>
                 </div>
@@ -91,7 +91,7 @@
                         <h1 class="text-[20px] text-left">ETH SCANNER</h1>
                     </div>
                     <div class="overflow-hidden w-full h-[80%] bg-cover rounded-lg flex justify-center items-center">
-                        <img src="{{asset('./assets/images/multi_scanner.png')}}" alt="" class="scale-220">
+                        <img src="{{asset('./assets/images/rabbit2.png')}}" alt="" class="scale-110">
                     </div>
                     <p>View info</p>
                 </div>
@@ -101,7 +101,7 @@
                         <h1 class="text-[20px] text-left">BSC SCANNER</h1>
                     </div>
                     <div class="overflow-hidden w-full h-[80%] bg-cover rounded-lg flex justify-center items-center">
-                        <img src="{{asset('./assets/images/multi_scanner.png')}}" alt="" class="scale-220">
+                        <img src="{{asset('./assets/images/rabbit2.png')}}" alt="" class="scale-110">
                     </div>
                     <p>View info</p>
                 </div>
@@ -111,7 +111,7 @@
                         <h1 class="text-[20px] text-left">FILE SCANNER</h1>
                     </div>
                     <div class="overflow-hidden w-full h-[80%] bg-cover rounded-lg flex justify-center items-center">
-                        <img src="{{asset('./assets/images/multi_scanner.png')}}" alt="" class="scale-220">
+                        <img src="{{asset('./assets/images/rabbit2.png')}}" alt="" class="scale-110">
                     </div>
                     <p>View info</p>
                 </div>
@@ -137,8 +137,8 @@
                         <img src="{{asset('./assets/images/scan.png')}}" class="scale-y-150" alt="">
                     </div> -->
                     <div class="bgBlur w-[450px] h-[600px] rounded-[100px] rotate-[15deg] absolute top-[-10px] lg:left-[10%]"></div>
-                    <div class="overflow-hidden w-[450px] h-[600px] rounded-[100px] flex relative justify-center items-center">
-                        <img src="{{asset('./assets/images/multi_scanner.png')}}" alt="" class="scale-220">
+                    <div class="bg-[#27273f] overflow-hidden w-[450px] h-[600px] rounded-[100px] flex relative justify-center items-center">
+                        <img src="{{asset('./assets/images/rabbit2.png')}}" alt="" class="scale-120">
                     </div>
                 </div>
                 <div class="lg:w-1/2 p-10 lg:p-0">
@@ -161,7 +161,7 @@
                         </ul>
                         <span class="text-sm">In my own opinion, the best way to make money with cryptocurrency is to get it from abandoned/forgotten wallets.</span>
                         <span class="text-sm mb-3">The software test thousands of potential seed phrase combinations against generated wallets every few seconds so you are able to unlock access to the lost wallet To Get Access To The Hacking/Phrase Recovery Software.</span>
-                        <a class="p-1 border-1 border-solid border-gray-700 rounded-xl cursor-pointer max-w-max team-box2">
+                        <a class="p-1 border-1 border-solid border-gray-700 rounded-xl cursor-pointer max-w-max team-box2" href="#buy">
                             <p class="bg-gradient-to-r from-[#6532fe] to-[#b898ff] rounded-xl py-3 px-6 text-sm image2">View info</p>
                         </a>
                     </div>
@@ -232,7 +232,7 @@
                 <div class="grid grid-cols-12 gap-5 p-5">
                     <div class="nft-item col-start-2 col-end-12 sm:col-span-6 lg:col-span-3 z-10">
                         <div>
-                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/multi_scanner.png')}}"></a></div>
+                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/rabbit2.png')}}"></a></div>
                             <div class="text-center card-title text-white"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" class="h5" target="_blank">BSC Scanner</a></div>
                             <div class="meta-info">
                                 <div class="author">
@@ -260,7 +260,7 @@
                     </div>
                     <div class="nft-item col-start-2 col-end-12 sm:col-span-6 lg:col-span-3 z-10">
                         <div>
-                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/multi_scanner.png')}}"></a></div>
+                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/rabbit2.png')}}"></a></div>
                             <div class="text-center card-title text-white"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" class="h5" target="_blank">ETH Scanner</a></div>
                             <div class="meta-info">
                                 <div class="author">
@@ -288,7 +288,7 @@
                     </div>
                     <div class="nft-item col-start-2 col-end-12 sm:col-span-6 lg:col-span-3 z-10">
                         <div>
-                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/multi_scanner.png')}}"></a></div>
+                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/rabbit2.png')}}"></a></div>
                             <div class="text-center card-title text-white"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" class="h5" target="_blank">FILE Scanner</a></div>
                             <div class="meta-info">
                                 <div class="author">
@@ -318,7 +318,7 @@
                     </div>
                     <div class="nft-item col-start-2 col-end-12 sm:col-span-6 lg:col-span-3 z-10">
                         <div>
-                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/multi_scanner.png')}}"></a></div>
+                            <div class="card-media"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" target="_blank"><img alt="Image" src="{{asset('./assets/images/rabbit2.png')}}"></a></div>
                             <div class="text-center card-title text-white"><a href="https://1drv.ms/f/s!AlgupcqwjUUraljMQq_VtE-kh04?e=PcIChg" class="h5" target="_blank">Multi Chain Scanner</a></div>
                             <div class="meta-info">
                                 <div class="author">
@@ -421,7 +421,7 @@
                 <h1 class="text-[40px] md:text-[50px] w-[90%] md:w-[60%] text-center">Our Amazing Team Members</h1>
             </div>
             <div class="team-box">
-                <div class="image"><a href="https://t.me/blockchaintool_bot" target="_blank"><img alt="" src="{{asset('./assets/images/icons/lion.png')}}"></a></div>
+                <div class="image"><a href="https://t.me/blockchaintool_bot" target="_blank"><img alt="" src="{{asset('./assets/images/icons/rabbit.png')}}"></a></div>
                 <div class="content"><a href="https://t.me/blockchaintool_bot" class="h5 name text-white hover:text-[#5c27fe] trasition-text duration-500" target="_blank">Luca</a>
                     <p class="postion text-white">Developer</p>
                     <ul class="list-social">
