@@ -15,7 +15,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing-page.landing-page');
 });
 
 Route::get('/gen-key', function () {
@@ -26,9 +26,6 @@ Route::post('/gen-key', function (Request $request) {
     $hashedKey = hash('sha256', $request->key . SALT);
     return response()->json(['hashedKey' => $hashedKey]);
 })->name('gen-key.post');
-Route::get('landing-page', function () {
-    return view('landing-page.landing-page');
-});
 
 Route::get('aos', function () {
     return view('landing-page.test-aos');
