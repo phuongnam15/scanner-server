@@ -349,7 +349,7 @@
             </div>
         </section>
         <section class="relative flex flex-col items-center mb-[100px]" id="faq">
-            <div class="absolute h-[1949px] w-[2000px] left-[-60%] top-[-90%] bg-custom-radial opacity-40 content-['']"></div>
+            <div class="absolute h-[1900] w-[2000px] left-[-60%] top-[-90%] bg-custom-radial opacity-40 content-['']"></div>
             <div class="max-w-[1230px]">
                 <div class="flex text-white flex-col gap-5 items-center">
                     <div class="max-w-fit relative inline-block rounded-2xl bg-gradient-to-r from-[rgba(255,255,255,0.05)] via-[rgba(255,255,255,0.008)] to-[rgba(255,255,255,0.05)]">
@@ -477,7 +477,6 @@
 
         //SCROLL HEADER
         window.addEventListener('scroll', function() {
-            console.log(123123);
 
             if (mobileTab.classList.contains('active')) {
                 mobileTab.classList.remove('active');
